@@ -1,0 +1,230 @@
+game.StarterGui:SetCore("SendNotification", {
+
+    Title = "RobloxPRO_YT HUB V.1";
+
+    Text = "Dont Steal My Script"; -- what the text says (ofc)
+
+    Duration = 60;
+
+})
+
+wait(1)
+
+game.StarterGui:SetCore("SendNotification", {
+
+    Title = "Enjoy";
+
+    Text = "Made By Ruszel Gonzales"; -- what the text says (ofc)
+
+    Duration = 60;
+
+})
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("RobloxPRO_YT HUB", "Ocean")
+
+local Tab = Window:NewTab("Home")
+
+local Section = Tab:NewSection("Home")
+
+Section:NewLabel("RobloxPRO3YT Hub V.1")
+
+Section:NewLabel("Added Blox Fruits")
+
+Section:NewLabel("Added Bedwars")
+
+Section:NewLabel("Added King Legacy")
+
+Section:NewLabel("Added Da Hood")
+
+Section:NewLabel("Added Brookhaven")
+
+local Tab = Window:NewTab("BloxFruits")
+
+local Section = Tab:NewSection("BloxFruits")
+
+Section:NewButton("Cve-Hub", "Patched", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Cve-Hub/LnHub/main/README.md'))()
+
+end)
+
+Section:NewButton("RenHub", "RenHub", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+
+end)
+
+Section:NewButton("RipperHub", "RipperHub", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/BFMobile.lua'))()
+
+end)
+
+Section:NewButton("BlackTrap (Patched)", "BlackTrap", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://pastebin.com/raw/BdvUGb2q"))()
+
+end)
+
+Section:NewButton("Blacktrap (new)", "new but idk its patched", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/BT1"))()
+
+end)
+
+Section:NewButton("HohoHub", "HohoHub", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+
+end)
+
+Section:NewButton("AutoChest", "reset character many times for anti cheat", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cesare0328/my-scripts/main/fxss%20bf.lua"))()
+
+end)
+
+local Tab = Window:NewTab("Bedwars")
+
+local Section = Tab:NewSection("Bedwars")
+
+Section:NewButton("MoonLight", "Maybe Its Patched", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/8pmX8/moonlight.cool/main/mlobfuscated.lua'))();
+
+end)
+
+Section:NewButton("SoftBed V1", "Idk", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet(" https://pastebin.com/raw/ELCkygpv ", true))()
+
+end)
+
+Section:NewButton("Softbed V2", "nah", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://pastebin.com/raw/ELCkygpv", true))()
+
+end)
+
+Section:NewButton("Vape Fixed", "Vape V4", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+end)
+
+local Tab = Window:NewTab("King Legacy")
+
+local Section = Tab:NewSection("King Legacy")
+
+Section:NewButton("HohoHub", "HohoHub", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+
+end)
+
+Section:NewButton("Hulkexe", "KingLegacy", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/-mobileMAX-/main/FreeScript.lua")()
+
+end)
+
+local Tab = Window:NewTab("Da Hood")
+
+local Section = Tab:NewSection("DaHood")
+
+Section:NewButton("RayCodex", "i hate toxic", function()
+
+    print("Clicked")
+
+loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+
+end)
+
+local Tab = Window:NewTab("BrookHaven")
+
+local Section = Tab:NewSection("BrookHaven")
+
+Section:NewButton("Admin Script", "You can be Admin But you can get kicked if you spawned car many times", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/testttbqwebg/adc0db730f5dfca0d8dbdb81f3b65391/raw/b0443888c4399af5a297cb1100a4749c65705711/qweqw", true))()
+
+end)
+
+Section:NewButton("New Ice Hub", "Kinda cold", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+
+end)
+
+local Tab = Window:NewTab("Settings")
+
+local Section = Tab:NewSection("Settings")
+
+Section:NewSlider("WalkSpeed", "flash", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+
+end)
+
+Section:NewSlider("JumpPower", "Superman", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+
+end)
+
+Section:NewButton("InfiniteYield/DexExplorer", "InfiniteYield/DexExplorer", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
+end)
+
+Section:NewButton("Keyboard", "keyboard", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+
+end)
+
+Section:NewButton("Animation Changer", "Animations", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kindasua/anim/main/But?token=GHSAT0AAAAAABUST2WZKCXLEYRYE3SCVR6WYUK6FOQ"), true))()
+
+end)
+
